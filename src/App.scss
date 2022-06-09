@@ -1,17 +1,13 @@
 @charset "utf-8";
 
 // import utilities from the bulma framework
-@import '../node_modules/bulma/sass/utilities/_all.sass'
-@import '../node_modules/bulma/sass/elements/button.sass'
-@import '../node_modules/bulma/sass/elements/_container.sass'
-@import '../node_modules/bulma/sass/layout/hero.sass'
-
-
-.app {
+@import "../node_modules/bulma/sass/utilities/_all.sass" @import
+  "../node_modules/bulma/sass/elements/button.sass" @import
+  "../node_modules/bulma/sass/elements/_container.sass" @import
+  "../node_modules/bulma/sass/layout/hero.sass" .app {
   position: absolute;
   min-height: 100vh;
 }
-
 
 img {
   width: 100%;
@@ -34,7 +30,6 @@ img {
 .featured-collection {
   margin-bottom: 6rem;
 
-
   .featured-section-title {
     font-size: 2rem;
   }
@@ -44,20 +39,16 @@ img {
   cursor: pointer;
 }
 
-
 @media (min-width: 1024px) {
   .products {
     display: flex;
     justify-content: space-between;
     padding: 5px;
 
-      .featured-product {
-    margin: 10px;
+    .featured-product {
+      margin: 10px;
+    }
   }
-  }
-
-
-  
 }
 
 // single product page
@@ -73,7 +64,6 @@ img {
   }
 }
 
-
 // Black button styles
 
 .nomad-btn {
@@ -88,5 +78,61 @@ img {
   min-height: 44px;
 }
 
-
 //input styles
+.nomad-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+}
+
+form {
+  padding: 2rem;
+  text-align: center;
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 60%;
+  }
+
+  .submit-btn {
+    display: flex;
+    justify-content: ;
+  }
+
+  .submit {
+    width: 200px;
+  }
+}
+
+.form-error {
+  border: 1px solid red;
+}
+
+::placeholder {
+  color: #606060;
+  font-size: 16px;
+}
+
+#btn-white-outline {
+  border: 1px solid white;
+  margin-bottom: 1rem;
+}
+
+#buy-it-now-btn {
+  &:hover {
+    background-color: #606060;
+  }
+}
+
+@media (min-width: 1024px) {
+  form {
+    width: 80%;
+    margin: 0 auto;
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 65%;
+    }
+  }
+}
