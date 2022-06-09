@@ -1,10 +1,12 @@
-// @charset "utf-8";
+@charset "utf-8";
 
-// // import utilities from the bulma framework
-// @import "../node_modules/bulma/sass/utilities/_all.sass" @import
-//   "../node_modules/bulma/sass/elements/button.sass" @import
-//   "../node_modules/bulma/sass/elements/_container.sass" @import
-//   "../node_modules/bulma/sass/layout/hero.sass" .app {
+// import utilities from the bulma framework
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/layout/hero.sass";
+
+// .app {
 //   position: absolute;
 //   min-height: 100vh;
 // }
