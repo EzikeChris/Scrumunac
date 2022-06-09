@@ -7,4 +7,86 @@
 @import '../node_modules/bulma/sass/layout/hero.sass'
 
 
+.app {
+  position: absolute;
+  min-height: 100vh;
+}
 
+
+img {
+  width: 100%;
+}
+
+.nomad-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#shop-now {
+  font-weight: 600;
+  &:hover {
+    background-color: #606060;
+  }
+}
+
+// featured products section
+
+.featured-collection {
+  margin-bottom: 6rem;
+
+
+  .featured-section-title {
+    font-size: 2rem;
+  }
+}
+
+.featured-image {
+  cursor: pointer;
+}
+
+
+@media (min-width: 1024px) {
+  .products {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+
+      .featured-product {
+    margin: 10px;
+  }
+  }
+
+
+  
+}
+
+// single product page
+
+.name-price {
+  p {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+}
+
+
+// Black button styles
+
+.nomad-btn {
+  display: block;
+  width: 100%;
+  line-height: 1.4;
+  padding-left: 5px;
+  padding-right: 5px;
+  white-space: normal;
+  margin-top: 0;
+  margin-bottom: 10px;
+  min-height: 44px;
+}
+
+
+//input styles
