@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <nav className="nav-menu container">
       <div className="logo">
-        <Link to="/">Ventures</Link>
+        <Link to="/">BurnDown</Link>
       </div>
       <ul>
         <li>
