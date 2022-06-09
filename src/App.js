@@ -1,5 +1,6 @@
 import Header from "./components/header/header";
 import HeroSection from "./components/Hero/hero";
+import Mainsection from "./components/mainsection/mainsection";
 import "./App.scss";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Header />
       <HeroSection />
+      <Mainsection />
     </div>
   );
 }
