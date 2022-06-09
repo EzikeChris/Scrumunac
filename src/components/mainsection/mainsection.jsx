@@ -17,7 +17,7 @@ function Mainsection({ history }) {
             games for new onces today.
           </p>
           <button
-            className="button is-bulma"
+            className="button is-black"
             id="shop-now"
             onClick={() => history.push("/products/1")}
           >
